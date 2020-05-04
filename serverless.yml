@@ -1,0 +1,13 @@
+component: website
+name: reactapp-sls-components
+stage: dev
+
+inputs:
+  code:
+    root: ./
+    src: ./src
+    hook: npm run build
+    dist: ./dist
+  bucketName: charyeezys-bomb-diggity-reactapp-components.com 
+  domain: charyeezys-bomb-diggity-reactapp-components.com         # (optional) domain name. this could also be a subdomain.
+  region: ap-southeast-2
