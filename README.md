@@ -64,7 +64,7 @@ Deploy Lambda and API Gateway
     $ sls deploy --debug --aws-s3-accelerate
   ```
 
-Replace API Endpoint in index.html
+
 
 
   
